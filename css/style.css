@@ -1,0 +1,193 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+h1, h2, h3{
+    font-family: Bebas Neue;
+    text-transform: uppercase;
+}
+p{
+    font-family: roboto;
+    font-size: 16px;
+}
+.highlighter{
+    color: #d48151;
+
+}
+.container{
+    margin: 3% 10%;
+}
+.half-width{
+    width: 50%;
+    float: left;
+}
+
+.section-heading{
+    color: #363958;
+    font-size: 48px;
+    
+}
+.section-text{
+    color: #3E3E3E;
+    padding: 0px 7%;
+    text-align: justify;
+}
+
+/* navbar style */
+
+.navbar{
+    overflow: hidden;
+    text-align: right;
+    margin-left: 60%;
+}
+.nav-list{
+    list-style-type: none;
+
+}
+.nav-items{
+    float: left;
+    padding: 0px 20PX;
+}
+.nav-items a{
+    text-decoration: none;
+    font-family: Roboto;
+    color: #3B3B3B;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* title section */
+
+#title{
+    height: 25em;
+}
+.title-text h1{
+    font-size: 80px;
+    letter-spacing: 1.5px;
+    line-height: 15px;
+    color: #363958;
+}
+.title-text p{
+    padding: 0% 40% 3% 0;
+    color: #3E3E3E;
+}
+
+.section-image img{
+    width: 85%;
+    padding: 0 10%;
+}
+.btn a{
+    text-decoration: none;
+    background-image: linear-gradient(90deg, rgba(251,126,24,0.9920343137254902) 0%, rgba(242,136,122,1) 85%);
+    padding: 15px 35px;
+    border-radius: 5px;
+    color: #fff;
+    font-family: roboto;
+}
+
+/* about section */
+
+#about{
+    height: 25em;
+}
+
+#about .container{
+    margin-top: 5%;
+}
+
+#about .section-image img{
+    width: 85%;
+    padding:0px 10% 0% 0%;
+}
+.section-title{
+    padding: 25px 0;
+}
+
+/* work section */
+
+#work{
+    background-color: #F8F9FC;
+    margin-top: 5%;
+    height: 42em;
+}
+#work .section-heading{
+    text-align: center;
+}
+.work-box{
+    width: 26%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    float: left;
+    box-shadow: rgba(128, 128, 128, 0.42) 5px 5px 20px;
+    margin: 29px;
+}
+.work-image img{
+    width: 100%;
+}
+.box-title{
+    font-family: roboto;
+    color: #3E3E3E;
+}
+.box-text{
+    color:#6C6C6C;
+}
+
+/* skill section */
+
+#skill{
+    height: 25em;
+    background-color: #ffffff6c;
+    padding: 4% 0;
+}
+
+#skill .work-box{
+    width: 41%;
+    background-image: linear-gradient(21deg, rgba(242,219,0,0.3925945378151261) 0%, rgba(254,71,5,0.7455357142857143) 100%);
+    margin: 10px;
+}
+#skill .section-text{
+    color: gray;
+    padding: 0 20% 0 0;
+}
+
+/* contact */
+
+#contact{
+    height: 20em;
+    
+}
+.contact-details {
+    background-image: url(../images/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 8em;
+    padding: 3%;
+    margin: 14%;
+}
+.contact-details h2{
+    color: white;
+    display: block;
+    float: left;
+    font-size: 45px;
+
+}
+.contact-details .btn {
+    margin-left: 50%;
+    margin-top: 15%;
+}
+
+/* footer */
+footer{
+    text-align: center;
+}
+footer h2{
+    font-family: roboto;
+    text-transform: lowercase;
+}
+.icon{
+    width: 30px;
+    padding: 10px;
+}
